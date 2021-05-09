@@ -3,10 +3,13 @@ import useLatestData from '../utils/useLatestData';
 import { HomePageGrid } from '../styles/Grids';
 import LoadingGrid from '../components/LoadingGrid';
 import ItemGrid from '../components/ItemGrid';
+import SEO from '../components/SEO';
 
 function CurrentlySlicing({ slicemasters }) {
   return (
     <div>
+      <SEO title="Kas Slices!" />
+
       <h2 className="center">
         <span className="mark tilt">Slicemasters On</span>
       </h2>
