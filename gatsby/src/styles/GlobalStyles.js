@@ -4,7 +4,7 @@ import stripes from '../assets/images/stripes.svg';
 
 const GlobalStyles = createGlobalStyle`
   :root {
-    --red: #FF4949;
+    --red: #C30052;
     --black: #2E2E2E;
     --yellow: #ffc600;
     --white: #fff;
